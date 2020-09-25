@@ -1,0 +1,1 @@
+export { CognitoAnalyticsIntegration } from './CognitoAnalyticsIntegration';

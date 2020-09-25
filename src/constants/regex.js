@@ -1,0 +1,10 @@
+export const URL_ELE_REGEX = /<(\bhttps?:\/\/\S+)>/giu;
+export const URL_REGEX = /\bhttps?:\/\/\S+/giu;
+export const BOLD_TEXT_ELE_REGEX = /\*([^*]+)\*/giu;
+export const BOLD_TEXT_REGEX = /\*[^*]+\*/giu;
+export const CODE_TEXT_REGEX = /`[^`]+`/giu;
+export const EMAIL_ELE_REGEX = /<([a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)>/giu;
+export const EMAIL_REGEX = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/giu;
+export const TAGGED_USER_REGEX = /{{(\d+)}}|{{(here)}}|{{(channel)}}/;
+export const NUMBER_REGEX = /\d+/;
+export const TEAM_CHANNEL_NAME_REGEX = /^[a-zA-Z0-9\s]*$/;

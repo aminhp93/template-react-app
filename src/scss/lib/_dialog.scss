@@ -1,0 +1,108 @@
+.dialog {
+  font-weight: 500;
+  font-size: 0.9rem;
+
+  // .modal-dialog {
+  //   max-width: 600px;
+  // }
+
+  .modal-content {
+    border: none !important;
+    border-radius: 5px !important;
+    width: 500px;
+  }
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 11px 20px;
+    background: $blue1;
+    color: $white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    &__title {
+      order: 0;
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+
+    &__button {
+      order: 1;
+      flex-grow: 0;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+  }
+
+  &-body {
+    padding: 20px;
+  }
+
+  &-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 20px 20px 20px;
+  }
+
+  &-button {
+    border: 1px solid $gray1;
+    border-radius: 3px;
+    background-color: $white;
+    font-size: .89rem;
+    padding: 8px 12px;
+    box-shadow: none;
+    margin-left: 10px;
+    color: $gray1;
+    font-weight: 400;
+    transition: all ease-in-out 0.125s;
+
+    &:hover {
+      background-color: $gray8;
+    }
+
+    &.confirm-button {
+      background-color: $blue1;
+      color: $white;
+      border-color: $blue1;
+    }
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .dialog {
+    .modal-dialog {
+      max-width: 460px;
+    }
+
+    .modal-content {
+      width: 440px;
+      max-width: 460px;
+    }
+  }
+}
+
+#serverErrorModal {
+  .modal-image {
+    padding: 2rem 1rem;
+  }
+
+  h5 {
+    color: #f06f98;
+  }
+
+  a {
+    color: $blue1 !important;
+  }
+
+  .error-content {
+    padding-right: 2rem;
+  }
+
+  .modal-body {
+    padding-bottom: 1rem;
+  }
+}

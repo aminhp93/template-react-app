@@ -1,0 +1,12 @@
+@import 'chat';
+@import 'news_feed';
+@import 'recommendation';
+@import 'event';
+@import 'static';
+@import 'messaging';
+@import 'interview';
+@import 'profile';
+
+.main-page {
+  flex-grow: 1;
+}

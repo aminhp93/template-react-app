@@ -1,0 +1,32 @@
+export const MESSAGE_TYPE = {
+  USER: 'USER_MESSAGE',
+  SYSTEM: 'SYSTEM_MESSAGE',
+  GIF: 'GIF_MESSAGE',
+};
+
+export const ENTITY_TYPE = {
+  TEAM: 'TEAM',
+  CHANNEL: 'CHANNEL',
+  CONVERSATION: 'CONVERSATION',
+};
+
+// export const USER_ROLE = {
+//   TEAM_ADMIN: 'TEAM_ADMIN',
+//   TEAM_MEMBER: 'TEAM_MEMBER',
+//   CHANNEL_ADMIN: 'CHANNEL_ADMIN',
+//   CHANNEL_MEMBER: 'CHANNEL_MEMBER',
+// };
+
+export const LIMIT_PARTICIPANTS = 30;
+
+export const NOTIFICATION = {
+  BROWSER: {
+    ICON: '/img/system_notification.png',
+  },
+};
+
+export const PUSH_NOTIFICATION_TYPE = {
+  ALL_MESSAGES: 'ALL_MESSAGES',
+  DIRECT_MESSAGES: 'DIRECT_MESSAGES',
+  NO_MESSAGE: 'NO_MESSAGE',
+};
